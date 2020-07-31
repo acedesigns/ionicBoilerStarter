@@ -1,0 +1,25 @@
+<ion-header>
+    <ion-toolbar color="primary">
+        <ion-buttons slot="start">
+            <ion-back-button defaulthref=""></ion-back-button>
+        </ion-buttons>
+        <ion-title>Register</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+    <form [formGroup]="registerForm" (ngSubmit)="signupAction(registerForm)">
+
+        <ion-list>
+
+            <ion-item>
+                <ion-label position="floating">Full Name</ion-label>
+                <ion-input formControlName="full_name" type="text" item-end
+                           type="text"></ion-input>
+            </ion-item>
+
+        </ion-list>
+    </form>
+
+</ion-content>
