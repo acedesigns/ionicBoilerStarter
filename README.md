@@ -24,8 +24,6 @@ Node v14.4.0
 
 
 NPM v 6.14.4
-
-
 ```
 
 ### Installing
