@@ -12,7 +12,6 @@ git clone https://github.com/acedesigns/ionicBoilerStarter.git
 cd ionicBoilerStarter
 
 npm install
-
 ```
 
 ### Prerequisites
@@ -32,7 +31,7 @@ Install Ionic Globally
 
 
 ```
-npm install -g @ionic/cl
+npm install -g @ionic/cli
 npm install -g cordova
 npm install -g cordova-res
 ```
@@ -59,7 +58,6 @@ System:
    NodeJS : v14.4.0 (/usr/local/Cellar/node/14.4.0/bin/node)
    npm    : 6.14.4
    OS     : macOS Catalina
-
 ```
 
 
